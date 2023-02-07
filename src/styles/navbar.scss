@@ -1,0 +1,17 @@
+@import '../styles/variables.scss';
+
+.navbar {
+    @include medidas(100%, 7%);
+    background: $azul-oscuro;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    a {
+        color: $blanco;
+    }
+    div {
+        background-color: $blanco;
+        @include medidas(1px, 1rem);
+    }
+}
