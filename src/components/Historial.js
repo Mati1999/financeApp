@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/historial.scss';
 import { GiReceiveMoney } from 'react-icons/gi'
+import { BsPlusLg } from 'react-icons/bs'
 
 const Historial = () => {
     return (
@@ -40,7 +41,11 @@ const Historial = () => {
                     <span>$1000</span>
                 </div>
             </div>
-
+            <button className="text-blanco">Ver mas</button>
+            <button className="text-blanco flex justify-evenly items-center mt-4 p-2 bg-verde rounded-xl">
+                <BsPlusLg className="text-3xl" />
+                <h5 className="w-1/2">Añadir o programar nuevo ingleso/gasto</h5>
+            </button>
         </div >
     )
 }
