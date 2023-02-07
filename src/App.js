@@ -8,7 +8,7 @@ import { BrowserRouter,Navigate,Route,Routes } from 'react-router-dom';
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="App bg-celeste">
         <Routes>
           <Route path='/' element={<main className='AppMain'><BalanceContainer /></main>} />
           <Route path='/perfil' element={<main className='AppMain'><Perfil /></main>} />

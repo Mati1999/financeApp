@@ -1,9 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import './styles/variables.scss';
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -11,7 +15,6 @@ a {
 }
 
 .App {
-    background: $celeste;
     @include medidas(100vw, 100vh);
 }
 

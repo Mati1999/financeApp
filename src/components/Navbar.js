@@ -4,16 +4,16 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <div className='navbar'>
-            <NavLink to='/perfil'>
+        <div className='navbar bg-azul-oscuro flex justify-between items-center py-0 px-8'>
+            <NavLink to='/perfil' className="text-blanco">
                 Perfil
             </NavLink>
-            <div></div>
-            <NavLink to='/'>
+            <div className="bg-blanco"></div>
+            <NavLink to='/' className="text-blanco">
                 Balance
             </NavLink>
-            <div></div>
-            <NavLink to='/historial'>
+            <div className="bg-blanco"></div>
+            <NavLink to='/historial' className="text-blanco">
                 Historial
             </NavLink>
         </div>
