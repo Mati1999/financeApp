@@ -1,0 +1,8 @@
+@import './variables.scss';
+
+.cronology {
+    @include medidas(100%, 10%);
+    div {
+        @include medidas(1px, 1rem);
+    }
+}

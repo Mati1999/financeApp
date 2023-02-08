@@ -1,0 +1,31 @@
+@import './variables.scss';
+
+.responsiveBarChart {
+    tspan {
+        fill: white;
+    }
+}
+
+.recharts-cartesian-grid-horizontal {
+    line {
+        stroke: rgb(16, 92, 129);
+    }
+}
+
+.recharts-cartesian-grid-vertical {
+    line {
+        stroke: transparent;
+    }
+}
+
+.recharts-yAxis {
+    line {
+        stroke: rgb(16, 92, 129);
+    }
+}
+
+.recharts-xAxis {
+    line {
+        stroke: rgb(16, 92, 129);
+    }
+}

@@ -1,8 +1,16 @@
 import React from 'react'
+import Chronology from './Chronology'
+import '../styles/historialContainer.scss'
+import HistorialBarChart from './HistorialBarChart'
+
+
 
 const HistorialContainer = () => {
     return (
-        <div>HistorialContainer</div>
+        <div className="historialContainer">
+            <Chronology />
+            <HistorialBarChart />
+        </div>
     )
 }
 
